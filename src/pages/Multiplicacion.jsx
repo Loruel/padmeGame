@@ -134,7 +134,7 @@ export default function Multiplicacion() {
                             {answers.map((answer, index) => (
                                 <div
                                     key={index}
-                                    className='bg-blue-700 w-1/3 text-center rounded-md shadow-black shadow-md cursor-pointer'
+                                    className='bg-blue-700 w-1/3 h-10 flex justify-center items-center rounded-md shadow-black shadow-md font-semibold'
                                     onClick={() => handleAnswerClick(answer)} // Detecta el clic en la respuesta
                                 >
                                     {answer}
