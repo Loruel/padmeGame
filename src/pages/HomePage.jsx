@@ -18,11 +18,15 @@ export default function HomePage() {
                 </h3>
 
                 <div className='flex space-x-4 w-full h-16 justify-center mt-6 '>
-                    <div className='bg-red-600 w-1/2 flex justify-center items-center rounded-md shadow-black shadow-md'>
-                        <p className='text-white'>
-                            Suma
-                        </p>
-                    </div>
+                    <Link
+                        className='w-1/2'
+                        to={'/suma'}>
+                        <div className='bg-red-600 h-full flex justify-center items-center rounded-md shadow-black shadow-md'>
+                            <p className='text-white'>
+                                Suma
+                            </p>
+                        </div>
+                    </Link>
 
                     <div className='bg-green-600 w-1/2 flex justify-center items-center rounded-md shadow-black shadow-md'>
                         <p className='text-white'>
